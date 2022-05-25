@@ -31,8 +31,8 @@ const secondQuiz = prompt ("Closest planet to the sun?");
 if(secondQuiz.toUpperCase() === "MERCURY"){
     correctAnswer += 1;
 }
-const thirdQuiz = prompt ("Owner of Tesla?");
-if(thirdQuiz.toUpperCase() === "ELON MUSK"){
+const thirdQuiz = prompt ("Who is the love of my life");
+if(thirdQuiz.toUpperCase() === "OLUWAPELUMI"){
     correctAnswer += 1;
 }
 const fourthQuiz = prompt("What language do you use to style webpages?");
