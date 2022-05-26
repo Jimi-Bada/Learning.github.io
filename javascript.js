@@ -24,7 +24,7 @@
 let correctAnswer= 0;
 let playerRank = "";
 const firstQuiz = prompt("Who is the Christian Messiah?");
-if (firstQuiz.toUpperCase() === "JESUS"){
+if (firstQuiz.toUpperCase() === "JESUS" || firstQuiz.toUpperCase() === "JESUS "" CHRIST") {
     correctAnswer += 1;
 }
 const secondQuiz = prompt ("Closest planet to the sun?");
