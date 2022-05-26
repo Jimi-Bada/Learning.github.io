@@ -71,5 +71,21 @@ const result = document.querySelector("main").innerHTML =`<h1> You got ${correct
                                                           <p> Crown earned: <strong> ${playerRank}</strong></p>`;
 // console.log(messiah);
 // const secondQuiz = prompt("WHich planet is closet to the Sun?");
+const highNumber = +prompt(`Input a high number`);
+const lowNumber = +prompt(`Input a low number`);
+if(highNumber && lowNumber){
+    if(highNumber <= 10){
+        alert(`high number must be greater than 10`);
+    }else if( lowNumber > 10){
+        alert(`Not a low number, low number must be below 10`);
+    }else if(highNumber > 10 && lowNumber <=10 ){
+    const randomNumber = Math.floor( Math.random() * (highNumber - lowNumber + 1)) + lowNumber;
+    alert(`${randomNumber} is a random number between ${lowNumber} and ${highNumber} `);
+    }
+  }else if( highNumber === "" || highNumber === null && lowNumber === "" || lowNumber === null ){
+   alert(`Please input a number`);
+  } else{
+    alert(`Please input two numbers`);
+   }
 
 
