@@ -28,31 +28,36 @@ if (firstQuiz.toUpperCase() === "JESUS" || firstQuiz.toUpperCase() === `JESUS CH
     correctAnswer += 1;
     alert("Sabi person!")
 } else{
-    alert("Olodo!"}
+    alert("Olodo!")
+    }
 const secondQuiz = prompt ("Closest planet to the sun?");
 if(secondQuiz.toUpperCase() === "MERCURY"){
     correctAnswer += 1;
        alert("Sabi person!")
 } else{
-    alert("Olodo!"}
+    alert("Olodo!")
+}
 const thirdQuiz = prompt ("Who is the love of my life");
 if(thirdQuiz.toUpperCase() === "OLUWAPELUMI"){
     correctAnswer += 1;
        alert("Sabi person!")
 } else{
-    alert("Olodo!"}
+    alert("Olodo!")
+}
 const fourthQuiz = prompt("What language do you use to style webpages?");
 if(fourthQuiz.toUpperCase() === "CSS"){
     correctAnswer += 1;
        alert("Sabi person!")
 } else{
-    alert("Olodo!"}
+    alert("Olodo!")
+}
 const fifthQuiz = prompt("Which programming language is the most commmon?");
 if(fifthQuiz.toUpperCase() === "JAVASCRIPT"){
     correctAnswer += 1;
        alert("Sabi person!")
 } else{
-    alert("Olodo!"}
+    alert("Olodo!")
+}
 if(correctAnswer === 5){
     playerRank = "Gold";
 } else if(correctAnswer >= 3){
